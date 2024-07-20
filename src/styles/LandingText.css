@@ -1,0 +1,61 @@
+div {
+    width: 80%;
+    margin: auto;
+}
+
+main {
+    margin-top: 8%;
+    background: #EEF1F6;
+    padding: 5% 8%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-bottom: 2%;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    margin-bottom: 5%;
+}
+
+b {
+    font-weight: 700;
+}
+
+p {
+    margin: 2% 0;
+    font-size: .9rem;
+}
+
+h4 {
+    font-weight: bold;
+    font-size: 1rem;
+}
+.landing_list {
+    margin: 3% 2%;
+} 
+
+li {
+    list-style-type: disc;
+    font-size: .9rem;
+
+ }
+
+ .links {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    margin-bottom: 3%;
+ }
+
+.next {
+    margin-top: 3%;
+    width: 100%;
+    
+}

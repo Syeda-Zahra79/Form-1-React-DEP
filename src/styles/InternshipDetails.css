@@ -1,0 +1,114 @@
+form {
+    margin: 6% auto 2%;
+    width: 80%;
+}
+
+form div{
+    background: #EEF1F6;
+    margin: 2% 0;
+}
+
+div label{
+    font-weight: 300;
+}
+
+div .main_label {
+    font-weight: 500;
+    width: fit-content;
+}
+
+
+.div-containers {
+    display: flex;
+    flex-direction: column;
+    margin: 3% auto;
+    padding: 5% 10%;
+}
+
+input[type=text],  input[type=email], input[type=number]{
+    width: 100%;
+    outline: none;
+    border: none;
+    font-weight: 400;
+    padding: 1% 2%;
+    margin-bottom: 3%;
+    margin-top: 1%;
+    font-size: .9rem;
+}
+
+input[type=radio] {
+    margin-right: 5%;
+}
+.domain_div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.domain_div .main_label {
+    margin-right: 7%;
+}
+#domain-radio {
+    display: flex;
+    width: 80%;
+}
+
+
+.hear_div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hear_div .main_label {
+    margin-right: 7%;
+}
+#hear_radio {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+#hear_radio div {
+    display: flex;
+    width: 100%;
+}
+
+.other-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.other-container input {
+    margin-left: 3%;
+    background: none;
+    border-bottom: 1px solid gray;
+    padding-top: 0;
+}
+
+.heading_label {
+    font-size: 1.2rem;
+    margin-bottom: 2%;
+}
+
+.file_label {
+    border: 2px solid #006ABF;
+    color: #006ABF;
+    font-weight: 500;
+    border-radius: 5px;
+    width: fit-content;
+    padding: 1% 5%;
+    cursor: pointer;
+}
+
+input[type='checkbox'] {
+    margin-right: 5%;
+}
+
+.next {
+    width: 80%;
+    margin: 0 10%;
+}
